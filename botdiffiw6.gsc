@@ -22,7 +22,7 @@ setDiffBots()
 		level waittill("connected", player);
 		if(isBot(player))
 		{
-			player maps\mp\bots\_bots_util::bot_set_difficulty( common_scripts\utility::random( [ "recruit" ] ), undefined );
+			player maps\mp\bots\_bots_util::bot_set_difficulty( common_scripts\utility::random( [ "Default" ] ), undefined );
 		}
 	}
 }
