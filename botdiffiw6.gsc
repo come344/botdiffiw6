@@ -7,7 +7,7 @@
 init()
 {
 	level thread setDiffBots();
-	setdvar ("scr_xpscale", 5);
+	setdvar ("scr_xpscale", 4);
 }
 
 //recruit
